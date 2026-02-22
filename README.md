@@ -9,7 +9,7 @@ Initializes a new Git repository.
 
 
 
-2.git clone
+#2.git clone
 
 Clones an existing repository.
 
