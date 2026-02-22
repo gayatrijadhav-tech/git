@@ -39,22 +39,22 @@ Compact commit history.
 
 ## 3️⃣ Staging & Committing
 
-1.git add
+git add
 
 Adds a specific file.
 
-2.git add your-file-name
+1.git add your-file-name
 
-3.git add .
+2.git add .
 
 Adds all modified files.
 
 
-4.git commit
+3.git commit
 
 Commits stage changes.
 
-5.git commit -m "your commit message"
+4.git commit -m "your commit message"
 
 ## 4️⃣ Branching
 
