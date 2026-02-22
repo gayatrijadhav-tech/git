@@ -1,101 +1,80 @@
 ## 1️⃣ Repository Initialization
 
 git init
+Initializes a new Git repository.
 
-git clone <repository-url>
+git clone
+Clones an existing repository.
 
 
-## 2️⃣ Checking Status & Logs
+git clone your-repository-url
 
+
+## 2️⃣ Checking Status & History
 
 git status
+Shows current file status.
 
 git log
+Shows commit history.
 
+
+git log
 git log --oneline
-
+Compact commit history.
 
 ## 3️⃣ Staging & Committing
+git add
+Adds a specific file.
 
-
-git add <file-name>
+git add your-file-name
 
 git add .
+Adds all modified files.
 
-git commit -m "commit message"
 
+git commit
+Commits stage changes.
 
+git commit -m "your commit message"
 ## 4️⃣ Branching
 
+Create Branch
+git branch your-branch-name
 
-git branch
+Switch Branch
+git checkout your-branch-name
 
-git branch <branch-name>
+Create & Switch Together
+git checkout -b your-new-branch-name
 
-git checkout <branch-name>
-
-git checkout -b <new-branch-name>
-
-git branch -d <branch-name>
-
-
+Delete Branch
+git branch -d your-branch-name
 ## 5️⃣ Remote Repository
+Connect Remote
+git remote add origin your-repository-url
 
-
-git remote -v
-
-git remote add origin <repo-url>
-
+Push Code
 git push -u origin main
 
+Pull Code
 git pull origin main
+## 6️⃣ Merge Branch
 
+git checkout main
 
-## 6️⃣ Merging & Rebase
-
-
-git merge <branch-name>
-
-git rebase <branch-name>
-
-
+git merge your-branch-name
 ## 7️⃣ Undo Changes
-
-
+Reset Hard
 git reset --hard HEAD
 
-git revert <commit-id>
 
-git checkout -- <file-name>
-
-
+Revert Commit
+git revert your-commit-id
 ## 8️⃣ Stashing
 
-
 git stash
-
-git stash list
 
 git stash apply
 
 
-## 9️⃣ Tags
-
-
-git tag
-
-git tag <tag-name>
-
-git push origin <tag-name>
-
-
-## Real DevOps Workflow Example
-
-
-git checkout -b feature-login
-
-git add .
-
-git commit -m "Added login feature"
-
-git push origin feature-login
