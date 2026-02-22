@@ -13,6 +13,9 @@ git clone <repository-url>
 
 
 
+
+
+
 2. Checking Status & Logs
 
 
@@ -26,6 +29,9 @@ git log --oneline
 
 
 
+
+
+
 3. Staging & Committing
 
 
@@ -35,6 +41,9 @@ git add <file-name>
 git add .
 
 git commit -m "commit message"
+
+
+
 
 
 
@@ -56,6 +65,9 @@ git branch -d <branch-name>
 
 
 
+
+
+
 5. Remote Repository
 
 
@@ -72,6 +84,9 @@ git pull origin main
 
 
 
+
+
+
 6. Merging & Rebase
 
 
@@ -79,6 +94,9 @@ git pull origin main
 git merge <branch-name>
 
 git rebase <branch-name>
+
+
+
 
 
 
@@ -96,6 +114,9 @@ git checkout -- <file-name>
 
 
 
+
+
+
 8. Stashing
 
 
@@ -109,6 +130,9 @@ git stash apply
 
 
 
+
+
+
 9. Tags
 
 
@@ -118,6 +142,9 @@ git tag
 git tag <tag-name>
 
 git push origin <tag-name>
+
+
+
 
 
 
