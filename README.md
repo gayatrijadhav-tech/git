@@ -2,7 +2,7 @@
 
 
 
-1.git init
+# 1.git init
 
 Initializes a new Git repository.
 
