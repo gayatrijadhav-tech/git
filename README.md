@@ -1,27 +1,32 @@
 ## 1️⃣ Repository Initialization
 
-```bash
 git init
 
 git clone <repository-url>
-2️⃣ Checking Status & Logs
-Bash
+
+
+## 2️⃣ Checking Status & Logs
+
 
 git status
 
 git log
 
 git log --oneline
-3️⃣ Staging & Committing
-Bash
+
+
+## 3️⃣ Staging & Committing
+
 
 git add <file-name>
 
 git add .
 
 git commit -m "commit message"
-4️⃣ Branching
-Bash
+
+
+## 4️⃣ Branching
+
 
 git branch
 
@@ -32,8 +37,10 @@ git checkout <branch-name>
 git checkout -b <new-branch-name>
 
 git branch -d <branch-name>
-5️⃣ Remote Repository
-Bash
+
+
+## 5️⃣ Remote Repository
+
 
 git remote -v
 
@@ -42,38 +49,48 @@ git remote add origin <repo-url>
 git push -u origin main
 
 git pull origin main
-6️⃣ Merging & Rebase
-Bash
+
+
+## 6️⃣ Merging & Rebase
+
 
 git merge <branch-name>
 
 git rebase <branch-name>
-7️⃣ Undo Changes
-Bash
+
+
+## 7️⃣ Undo Changes
+
 
 git reset --hard HEAD
 
 git revert <commit-id>
 
 git checkout -- <file-name>
-8️⃣ Stashing
-Bash
+
+
+## 8️⃣ Stashing
+
 
 git stash
 
 git stash list
 
 git stash apply
-9️⃣ Tags
-Bash
+
+
+## 9️⃣ Tags
+
 
 git tag
 
 git tag <tag-name>
 
 git push origin <tag-name>
-🔥 Real DevOps Workflow Example
-Bash
+
+
+## Real DevOps Workflow Example
+
 
 git checkout -b feature-login
 
